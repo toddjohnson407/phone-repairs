@@ -1,0 +1,27 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: rgb(53, 47, 47);
+  height: 15vh;
+  color: white;
+
+  & > .logo {
+    font-size: 180%;
+    font-weight: bold;
+    margin-left: 24px;
+  }
+
+  & > .nav-opts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 24px;
+
+    & > .nav-opt {
+      margin: 0 24px;
+    }
+  }
+}
