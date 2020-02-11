@@ -1,0 +1,11 @@
+
+<div class="repair-page">
+  <div class="repair-header">Select Your Model</div>
+
+  <div class="phone-selection">
+    <div [class]="i === selectedModelIndex ? 'phone-model active-phone-model': 'phone-model'" *ngFor="let model of testPhoneModels; index as i;" (click)="selectModel(i)">
+      <img src="assets/images/iphonex.png" alt="iPhone">
+      <div class="model-name">{{ model }}</div>
+    </div>
+  </div>
+</div>

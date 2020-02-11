@@ -5,13 +5,14 @@
   align-items: center;
   width: 100%;
   background: rgb(53, 47, 47);
-  height: 15vh;
+  height: 10vh;
   color: white;
 
   & > .logo {
     font-size: 180%;
     font-weight: bold;
     margin-left: 24px;
+    color: #33d6b8;
   }
 
   & > .nav-opts {
@@ -19,9 +20,12 @@
     justify-content: space-around;
     align-items: center;
     margin-right: 24px;
-
+    // font-weight: bold;
     & > .nav-opt {
       margin: 0 24px;
+      &.active-opt {
+        color: #33d6b8;
+      }
     }
   }
 }

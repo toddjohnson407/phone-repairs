@@ -1,0 +1,50 @@
+
+
+.repair-page {
+  width: 100%;
+  color: white;
+  background: rgb(53, 47, 47);
+  margin-top: 48px;
+
+  & > .repair-header {
+    font-size: 175%;
+    font-weight: bold;
+    font-weight: lighter;
+    text-align: center;
+    color: #33d6b8;
+
+  }
+
+  & > .phone-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 36px auto;
+    width: 70%;
+    min-width: 300px;
+    // color: #33d6b8;
+
+
+    & > .phone-model {
+      box-sizing: border-box;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 20%;
+      min-width: 100px;
+      margin: 24px;
+      & > img { width: 75px }
+      & > .model-name { font-weight: 400; margin-top: 8px; }
+      border: 2px solid white;
+      border-radius: 8px;
+      padding: 16px;
+      
+      &.active-phone-model {
+        border: 2px solid #33d6b8;
+        color: #33d6b8;
+      }
+    }
+  }
+}

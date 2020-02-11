@@ -9,9 +9,10 @@ export class NavbarComponent implements OnInit {
 
   /** Array of navigation options */
   navOpts: any[] = [
-    { title: 'Home', path: '/' },
+    // { title: 'Home', path: '/' },
+    { title: 'Repair', path: '/repair' },
     { title: 'About', path: '/about' },
-    { title: 'Schedule', path: '/schedule' },
+    // { title: 'Schedule', path: '/schedule' },
   ]
 
   constructor() { }

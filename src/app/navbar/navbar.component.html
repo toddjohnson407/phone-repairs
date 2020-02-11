@@ -2,6 +2,6 @@
 <div class="navbar">
   <div class="logo">Express Repairs</div>
   <div class="nav-opts">
-    <a class="nav-opt" *ngFor="let opt of navOpts" [routerLink]="opt.path">{{ opt.title }}</a>
+    <a class="nav-opt" *ngFor="let opt of navOpts" [routerLink]="opt.path" routerLinkActive="active-opt">{{ opt.title }}</a>
   </div>
 </div>
